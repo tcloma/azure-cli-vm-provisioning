@@ -79,7 +79,7 @@ For this example, we'll be making a basic Ubuntu VM with SSH key auto-generation
 
 > For reference: `ssh labuser@172.175.200.69`
 
-### 7. Resource clean up
+### 5. Resource clean up
 After observing traffic, to avoid charges, delete the entire resource group
 > Command to run: `az group delete` `--resource-group`
 
@@ -88,3 +88,7 @@ After observing traffic, to avoid charges, delete the entire resource group
 - Supply the exact name of the resource group, and enter `y` to confirm the operation
 - Allow it to finish running, and confirm on https://portal.azure.com/?icid=get-started#browse/resourcegroups that the resource group has been succesfully deleted
 > For reference: `az group delete --resource-group az-cli-test` `--yes`
+
+### Further resources and learning
+- https://learn.microsoft.com/en-us/cli/azure/what-is-azure-cli?view=azure-cli-latest
+- https://www.youtube.com/watch?v=zsjnBNRgK9E
